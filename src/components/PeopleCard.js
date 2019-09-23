@@ -10,7 +10,7 @@ import {
 import { faSpaceShuttle, faVideo } from '@fortawesome/free-solid-svg-icons'
 
 import CountBadge from './CountBadge'
-import peopleImages from '../util/peopleImages';
+import peopleImages from '../util/peopleImages'
 
 const PeopleCard = ({ people, modal }) => {
 
