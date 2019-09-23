@@ -35,7 +35,7 @@ const PeopleCard = ({ people, modal }) => {
 
     function getImage() {
         let image = peopleImages.filter((image) =>
-            image.name == people.name 
+            image.name === people.name 
         )
         if (image.length > 0) {
             return image[0].path

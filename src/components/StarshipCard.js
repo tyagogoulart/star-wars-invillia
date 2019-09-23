@@ -18,7 +18,7 @@ const StarshipCard = ({starshipUrl}) => {
     useEffect(() => {
         getStarshipDetail(starshipUrl)
             .then(res => setStarship(res.data))
-    }, [])
+    }, [starshipUrl])
 
     return (
         <Card className="mb-3">

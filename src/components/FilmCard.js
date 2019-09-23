@@ -18,7 +18,7 @@ const FilmCard = ({filmUrl}) => {
     useEffect(() => {
         getFilmDetail(filmUrl)
             .then(res => setFilm(res.data))
-    }, [])
+    }, [filmUrl])
 
     return (
         <Card className="mb-3">
